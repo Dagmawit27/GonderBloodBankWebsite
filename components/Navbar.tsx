@@ -72,9 +72,6 @@ export default function Navbar({ onOpenEmergencyModal, onScrollToBooking }: Navb
               <button onClick={() => scrollTo('eligibility')} className="hover:text-gray-900 transition cursor-pointer">
                 Eligibility
               </button>
-              <button onClick={() => scrollTo('caravans')} className="hover:text-gray-900 transition cursor-pointer">
-                Mobile Drives
-              </button>
               <button onClick={() => scrollTo('news')} className="hover:text-gray-900 transition cursor-pointer">
                 News
               </button>
